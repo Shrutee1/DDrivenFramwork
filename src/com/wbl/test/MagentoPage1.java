@@ -14,8 +14,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class MagentoPage1 {
 public static void main(String []args) throws IOException, InterruptedException {
 	
-	FileInputStream  fis=new FileInputStream("C:\\Users\\16179\\eclipse-workspace\\DDrivenFramwork\\"
-			+ "src\\com\\wbl\\properties\\DD.properties");
+	FileInputStream  fis=new FileInputStream("src/com/wbl/properties/DD.properties");
 	Properties prop =new Properties();
 	
 	prop.load(fis);
